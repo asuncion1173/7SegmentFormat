@@ -15,6 +15,12 @@ namespace _7SegmentFormat
         public Form1()
         {
             InitializeComponent();
+            button1.BackColor = System.Drawing.Color.Black;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

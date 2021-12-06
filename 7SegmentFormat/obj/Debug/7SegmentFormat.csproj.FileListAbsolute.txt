@@ -1,0 +1,10 @@
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\bin\Debug\7SegmentFormat.exe.config
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\bin\Debug\7SegmentFormat.exe
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\bin\Debug\7SegmentFormat.pdb
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\obj\Debug\7SegmentFormat.csproj.AssemblyReference.cache
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\obj\Debug\_7SegmentFormat.Form1.resources
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\obj\Debug\_7SegmentFormat.Properties.Resources.resources
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\obj\Debug\7SegmentFormat.csproj.GenerateResource.cache
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\obj\Debug\7SegmentFormat.csproj.CoreCompileInputs.cache
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\obj\Debug\7SegmentFormat.exe
+C:\Users\ASUNCION\source\repos\7SegmentFormat\7SegmentFormat\obj\Debug\7SegmentFormat.pdb

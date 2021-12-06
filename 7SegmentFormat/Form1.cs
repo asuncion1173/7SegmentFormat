@@ -16,6 +16,8 @@ namespace _7SegmentFormat
         {
             InitializeComponent();
             button1.BackColor = System.Drawing.Color.Black;
+            var time = DateTime.Now.ToString("HH:mm:ss");
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

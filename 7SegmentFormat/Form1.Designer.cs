@@ -71,6 +71,7 @@ namespace _7SegmentFormat
             this.button40 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.button42 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -537,12 +538,23 @@ namespace _7SegmentFormat
             this.button42.Text = " ";
             this.button42.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(415, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 42;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(857, 480);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button36);
             this.Controls.Add(this.button37);
             this.Controls.Add(this.button38);
@@ -593,6 +605,7 @@ namespace _7SegmentFormat
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "7 segment Time";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -640,6 +653,7 @@ namespace _7SegmentFormat
         private System.Windows.Forms.Button button40;
         private System.Windows.Forms.Button button41;
         private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Label label1;
     }
 }
 

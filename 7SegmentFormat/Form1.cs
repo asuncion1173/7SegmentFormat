@@ -15,14 +15,33 @@ namespace _7SegmentFormat
         public Form1()
         {
             InitializeComponent();
-            button1.BackColor = System.Drawing.Color.Black;
-            var time = DateTime.Now.ToString("HH:mm:ss");
+            
             
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            
+            var time = DateTime.Now.ToString("ss");
+            int onceSecond = Convert.ToInt32(time.Substring(time.Length - 1));
+            if (onceSecond == 1)
+            {
+                btn1SB.PerformClick();
+                btn1SC.PerformClick();
+            }
+            else if (onceSecond == 2)
+            {
+                btn1SA.PerformClick();
+                btn1SB.PerformClick();
+                btn1SG.PerformClick();
+                btn1SE.PerformClick();
+                btn1SD.PerformClick();
+            }
+        }
+
+        private void all(object sender, EventArgs e)
+        {
+            Button btnAll = (Button)sender;
+            btnAll.BackColor = System.Drawing.Color.Black;
         }
     }
 }

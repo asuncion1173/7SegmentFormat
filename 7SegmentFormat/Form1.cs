@@ -338,6 +338,105 @@ namespace _7SegmentFormat
                 btn2MF.PerformClick();
             }
 
+            // For once place (Hour)
+            var timeHour = DateTime.Now.ToString("hh");
+            int onceHour = Convert.ToInt32(timeHour.Substring(timeHour.Length - 1));
+
+            if (onceHour == 1)
+            {
+                btn1HA.BackColor = System.Drawing.Color.Black;
+                btn1HF.BackColor = System.Drawing.Color.Black;
+                btn1HE.BackColor = System.Drawing.Color.Black;
+                btn1HD.BackColor = System.Drawing.Color.Black;
+                btn1HB.PerformClick();
+                btn1HC.PerformClick();
+            }
+            else if (onceHour == 2)
+            {
+                btn1HC.BackColor = System.Drawing.Color.Black;
+                btn1HA.PerformClick();
+                btn1HB.PerformClick();
+                btn1HG.PerformClick();
+                btn1HE.PerformClick();
+                btn1HD.PerformClick();
+            }
+            else if (onceHour == 3)
+            {
+                btn1HE.BackColor = System.Drawing.Color.Black;
+                btn1HA.PerformClick();
+                btn1HB.PerformClick();
+                btn1HG.PerformClick();
+                btn1HD.PerformClick();
+                btn1HC.PerformClick();
+            }
+            else if (onceHour == 4)
+            {
+                btn1HA.BackColor = System.Drawing.Color.Black;
+                btn1HD.BackColor = System.Drawing.Color.Black;
+                btn1HB.PerformClick();
+                btn1HG.PerformClick();
+                btn1HC.PerformClick();
+                btn1HF.PerformClick();
+            }
+            else if (onceHour == 5)
+            {
+                btn1HB.BackColor = System.Drawing.Color.Black;
+                btn1HA.PerformClick();
+                btn1HG.PerformClick();
+                btn1HC.PerformClick();
+                btn1HF.PerformClick();
+                btn1HD.PerformClick();
+            }
+            else if (onceHour == 6)
+            {
+                btn1HA.PerformClick();
+                btn1HG.PerformClick();
+                btn1HC.PerformClick();
+                btn1HF.PerformClick();
+                btn1HD.PerformClick();
+                btn1HE.PerformClick();
+            }
+            else if (onceHour == 7)
+            {
+                btn1HD.BackColor = System.Drawing.Color.Black;
+                btn1HE.BackColor = System.Drawing.Color.Black;
+                btn1HG.BackColor = System.Drawing.Color.Black;
+                btn1HF.BackColor = System.Drawing.Color.Black;
+                btn1HA.PerformClick();
+                btn1HB.PerformClick();
+                btn1HC.PerformClick();
+            }
+            else if (onceHour == 8)
+            {
+                btn1HA.PerformClick();
+                btn1HB.PerformClick();
+                btn1HC.PerformClick();
+                btn1HD.PerformClick();
+                btn1HE.PerformClick();
+                btn1HF.PerformClick();
+                btn1HG.PerformClick();
+            }
+            else if (onceHour == 9)
+            {
+                btn1HE.BackColor = System.Drawing.Color.Black;
+                btn1HA.PerformClick();
+                btn1HB.PerformClick();
+                btn1HC.PerformClick();
+                btn1HD.PerformClick();
+                btn1HF.PerformClick();
+                btn1HG.PerformClick();
+            }
+            else
+            {
+                btn1HG.BackColor = System.Drawing.Color.Black;
+                btn1HA.PerformClick();
+                btn1HB.PerformClick();
+                btn1HC.PerformClick();
+                btn1HD.PerformClick();
+                btn1HE.PerformClick();
+                btn1HF.PerformClick();
+            }
+
         }
 
         private void all(object sender, EventArgs e)

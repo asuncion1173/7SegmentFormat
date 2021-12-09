@@ -437,7 +437,31 @@ namespace _7SegmentFormat
                 btn1HF.PerformClick();
             }
 
+            //For tenths place (Hour)
+
+            int tenthHour = Convert.ToInt32(timeHour.Substring(0, 1));
+
+            if (tenthHour == 1)
+            {
+                btn2HA.BackColor = System.Drawing.Color.Black;
+                btn2HF.BackColor = System.Drawing.Color.Black;
+                btn2HE.BackColor = System.Drawing.Color.Black;
+                btn2HD.BackColor = System.Drawing.Color.Black;
+                btn2HB.PerformClick();
+                btn2HC.PerformClick();
+            }
+            else
+            {
+                btn2HG.BackColor = System.Drawing.Color.Black;
+                btn2HA.PerformClick();
+                btn2HB.PerformClick();
+                btn2HC.PerformClick();
+                btn2HD.PerformClick();
+                btn2HE.PerformClick();
+                btn2HF.PerformClick();
+            }
         }
+
 
         private void all(object sender, EventArgs e)
         {

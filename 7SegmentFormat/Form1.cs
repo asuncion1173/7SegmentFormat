@@ -25,16 +25,97 @@ namespace _7SegmentFormat
             int onceSecond = Convert.ToInt32(time.Substring(time.Length - 1));
             if (onceSecond == 1)
             {
+                btn1SA.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SF.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SD.BackColor = System.Drawing.Color.Gainsboro;
                 btn1SB.PerformClick();
                 btn1SC.PerformClick();
             }
             else if (onceSecond == 2)
             {
+                btn1SC.BackColor = System.Drawing.Color.Gainsboro;
                 btn1SA.PerformClick();
                 btn1SB.PerformClick();
                 btn1SG.PerformClick();
                 btn1SE.PerformClick();
                 btn1SD.PerformClick();
+            }
+            else if (onceSecond == 3)
+            {
+                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SA.PerformClick();
+                btn1SB.PerformClick();
+                btn1SG.PerformClick();
+                btn1SD.PerformClick();
+                btn1SC.PerformClick();
+            }
+            else if (onceSecond == 4)
+            {
+                btn1SA.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SD.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SB.PerformClick();
+                btn1SG.PerformClick();
+                btn1SC.PerformClick();
+                btn1SF.PerformClick();
+            }
+            else if (onceSecond == 5)
+            {
+                btn1SB.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SA.PerformClick();
+                btn1SG.PerformClick();
+                btn1SC.PerformClick();
+                btn1SF.PerformClick();
+                btn1SD.PerformClick();
+            }
+            else if (onceSecond == 6)
+            {
+                btn1SA.PerformClick();
+                btn1SG.PerformClick();
+                btn1SC.PerformClick();
+                btn1SF.PerformClick();
+                btn1SD.PerformClick();
+                btn1SE.PerformClick();
+            }
+            else if (onceSecond == 7)
+            {
+                btn1SD.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SG.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SF.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SA.PerformClick();
+                btn1SB.PerformClick();
+                btn1SC.PerformClick();
+            }
+            else if (onceSecond == 8)
+            {
+                btn1SA.PerformClick();
+                btn1SB.PerformClick();
+                btn1SC.PerformClick();
+                btn1SD.PerformClick();
+                btn1SE.PerformClick();
+                btn1SF.PerformClick();
+                btn1SG.PerformClick();
+            }
+            else if (onceSecond == 9)
+            {
+                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SA.PerformClick();
+                btn1SB.PerformClick();
+                btn1SC.PerformClick();
+                btn1SD.PerformClick();
+                btn1SF.PerformClick();
+                btn1SG.PerformClick();
+            }
+            else
+            {
+                btn1SG.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SA.PerformClick();
+                btn1SB.PerformClick();
+                btn1SC.PerformClick();
+                btn1SD.PerformClick();
+                btn1SE.PerformClick();
+                btn1SF.PerformClick();
             }
         }
 

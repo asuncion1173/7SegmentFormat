@@ -79,6 +79,8 @@ namespace _7SegmentFormat
             // btn1SA
             // 
             this.btn1SA.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn1SA.FlatAppearance.BorderSize = 0;
+            this.btn1SA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1SA.Location = new System.Drawing.Point(721, 87);
             this.btn1SA.Name = "btn1SA";
             this.btn1SA.Size = new System.Drawing.Size(118, 10);
@@ -90,6 +92,8 @@ namespace _7SegmentFormat
             // 
             // btn1SG
             // 
+            this.btn1SG.FlatAppearance.BorderSize = 0;
+            this.btn1SG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1SG.Location = new System.Drawing.Point(721, 219);
             this.btn1SG.Name = "btn1SG";
             this.btn1SG.Size = new System.Drawing.Size(118, 9);
@@ -101,6 +105,8 @@ namespace _7SegmentFormat
             // 
             // btn1SD
             // 
+            this.btn1SD.FlatAppearance.BorderSize = 0;
+            this.btn1SD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1SD.Location = new System.Drawing.Point(721, 347);
             this.btn1SD.Name = "btn1SD";
             this.btn1SD.Size = new System.Drawing.Size(118, 10);
@@ -112,6 +118,8 @@ namespace _7SegmentFormat
             // 
             // btn1SF
             // 
+            this.btn1SF.FlatAppearance.BorderSize = 0;
+            this.btn1SF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1SF.Location = new System.Drawing.Point(721, 103);
             this.btn1SF.Name = "btn1SF";
             this.btn1SF.Size = new System.Drawing.Size(10, 110);
@@ -123,6 +131,8 @@ namespace _7SegmentFormat
             // 
             // btn1SB
             // 
+            this.btn1SB.FlatAppearance.BorderSize = 0;
+            this.btn1SB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1SB.Location = new System.Drawing.Point(829, 103);
             this.btn1SB.Name = "btn1SB";
             this.btn1SB.Size = new System.Drawing.Size(10, 110);
@@ -134,6 +144,8 @@ namespace _7SegmentFormat
             // 
             // btn1SE
             // 
+            this.btn1SE.FlatAppearance.BorderSize = 0;
+            this.btn1SE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1SE.Location = new System.Drawing.Point(721, 231);
             this.btn1SE.Name = "btn1SE";
             this.btn1SE.Size = new System.Drawing.Size(10, 110);
@@ -145,6 +157,8 @@ namespace _7SegmentFormat
             // 
             // btn1SC
             // 
+            this.btn1SC.FlatAppearance.BorderSize = 0;
+            this.btn1SC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1SC.Location = new System.Drawing.Point(829, 231);
             this.btn1SC.Name = "btn1SC";
             this.btn1SC.Size = new System.Drawing.Size(10, 110);
@@ -156,6 +170,8 @@ namespace _7SegmentFormat
             // 
             // btn2SC
             // 
+            this.btn2SC.FlatAppearance.BorderSize = 0;
+            this.btn2SC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2SC.Location = new System.Drawing.Point(691, 231);
             this.btn2SC.Name = "btn2SC";
             this.btn2SC.Size = new System.Drawing.Size(10, 110);
@@ -167,6 +183,8 @@ namespace _7SegmentFormat
             // 
             // btn2SE
             // 
+            this.btn2SE.FlatAppearance.BorderSize = 0;
+            this.btn2SE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2SE.Location = new System.Drawing.Point(583, 231);
             this.btn2SE.Name = "btn2SE";
             this.btn2SE.Size = new System.Drawing.Size(10, 110);
@@ -178,6 +196,8 @@ namespace _7SegmentFormat
             // 
             // btn2SB
             // 
+            this.btn2SB.FlatAppearance.BorderSize = 0;
+            this.btn2SB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2SB.Location = new System.Drawing.Point(691, 103);
             this.btn2SB.Name = "btn2SB";
             this.btn2SB.Size = new System.Drawing.Size(10, 110);
@@ -189,6 +209,8 @@ namespace _7SegmentFormat
             // 
             // btn2SF
             // 
+            this.btn2SF.FlatAppearance.BorderSize = 0;
+            this.btn2SF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2SF.Location = new System.Drawing.Point(583, 103);
             this.btn2SF.Name = "btn2SF";
             this.btn2SF.Size = new System.Drawing.Size(10, 110);
@@ -200,6 +222,8 @@ namespace _7SegmentFormat
             // 
             // btn2SD
             // 
+            this.btn2SD.FlatAppearance.BorderSize = 0;
+            this.btn2SD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2SD.Location = new System.Drawing.Point(583, 347);
             this.btn2SD.Name = "btn2SD";
             this.btn2SD.Size = new System.Drawing.Size(118, 10);
@@ -211,6 +235,8 @@ namespace _7SegmentFormat
             // 
             // btn2SG
             // 
+            this.btn2SG.FlatAppearance.BorderSize = 0;
+            this.btn2SG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2SG.Location = new System.Drawing.Point(583, 219);
             this.btn2SG.Name = "btn2SG";
             this.btn2SG.Size = new System.Drawing.Size(118, 9);
@@ -222,6 +248,8 @@ namespace _7SegmentFormat
             // 
             // btn2SA
             // 
+            this.btn2SA.FlatAppearance.BorderSize = 0;
+            this.btn2SA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2SA.Location = new System.Drawing.Point(583, 87);
             this.btn2SA.Name = "btn2SA";
             this.btn2SA.Size = new System.Drawing.Size(118, 10);
@@ -233,6 +261,8 @@ namespace _7SegmentFormat
             // 
             // btn1MC
             // 
+            this.btn1MC.FlatAppearance.BorderSize = 0;
+            this.btn1MC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1MC.Location = new System.Drawing.Point(548, 231);
             this.btn1MC.Name = "btn1MC";
             this.btn1MC.Size = new System.Drawing.Size(10, 110);
@@ -244,6 +274,8 @@ namespace _7SegmentFormat
             // 
             // btn1ME
             // 
+            this.btn1ME.FlatAppearance.BorderSize = 0;
+            this.btn1ME.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1ME.Location = new System.Drawing.Point(440, 231);
             this.btn1ME.Name = "btn1ME";
             this.btn1ME.Size = new System.Drawing.Size(10, 110);
@@ -255,6 +287,8 @@ namespace _7SegmentFormat
             // 
             // btn1MB
             // 
+            this.btn1MB.FlatAppearance.BorderSize = 0;
+            this.btn1MB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1MB.Location = new System.Drawing.Point(548, 103);
             this.btn1MB.Name = "btn1MB";
             this.btn1MB.Size = new System.Drawing.Size(10, 110);
@@ -266,6 +300,8 @@ namespace _7SegmentFormat
             // 
             // btn1MF
             // 
+            this.btn1MF.FlatAppearance.BorderSize = 0;
+            this.btn1MF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1MF.Location = new System.Drawing.Point(440, 103);
             this.btn1MF.Name = "btn1MF";
             this.btn1MF.Size = new System.Drawing.Size(10, 110);
@@ -277,6 +313,8 @@ namespace _7SegmentFormat
             // 
             // btn1MD
             // 
+            this.btn1MD.FlatAppearance.BorderSize = 0;
+            this.btn1MD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1MD.Location = new System.Drawing.Point(440, 347);
             this.btn1MD.Name = "btn1MD";
             this.btn1MD.Size = new System.Drawing.Size(118, 10);
@@ -288,6 +326,8 @@ namespace _7SegmentFormat
             // 
             // btn1MG
             // 
+            this.btn1MG.FlatAppearance.BorderSize = 0;
+            this.btn1MG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1MG.Location = new System.Drawing.Point(440, 219);
             this.btn1MG.Name = "btn1MG";
             this.btn1MG.Size = new System.Drawing.Size(118, 9);
@@ -299,6 +339,8 @@ namespace _7SegmentFormat
             // 
             // btn1MA
             // 
+            this.btn1MA.FlatAppearance.BorderSize = 0;
+            this.btn1MA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1MA.Location = new System.Drawing.Point(440, 87);
             this.btn1MA.Name = "btn1MA";
             this.btn1MA.Size = new System.Drawing.Size(118, 10);
@@ -310,6 +352,8 @@ namespace _7SegmentFormat
             // 
             // btn2MC
             // 
+            this.btn2MC.FlatAppearance.BorderSize = 0;
+            this.btn2MC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2MC.Location = new System.Drawing.Point(413, 231);
             this.btn2MC.Name = "btn2MC";
             this.btn2MC.Size = new System.Drawing.Size(10, 110);
@@ -321,6 +365,8 @@ namespace _7SegmentFormat
             // 
             // btn2ME
             // 
+            this.btn2ME.FlatAppearance.BorderSize = 0;
+            this.btn2ME.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2ME.Location = new System.Drawing.Point(305, 231);
             this.btn2ME.Name = "btn2ME";
             this.btn2ME.Size = new System.Drawing.Size(10, 110);
@@ -332,6 +378,8 @@ namespace _7SegmentFormat
             // 
             // btn2MB
             // 
+            this.btn2MB.FlatAppearance.BorderSize = 0;
+            this.btn2MB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2MB.Location = new System.Drawing.Point(413, 103);
             this.btn2MB.Name = "btn2MB";
             this.btn2MB.Size = new System.Drawing.Size(10, 110);
@@ -343,6 +391,8 @@ namespace _7SegmentFormat
             // 
             // btn2MF
             // 
+            this.btn2MF.FlatAppearance.BorderSize = 0;
+            this.btn2MF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2MF.Location = new System.Drawing.Point(305, 103);
             this.btn2MF.Name = "btn2MF";
             this.btn2MF.Size = new System.Drawing.Size(10, 110);
@@ -354,6 +404,8 @@ namespace _7SegmentFormat
             // 
             // btn2MD
             // 
+            this.btn2MD.FlatAppearance.BorderSize = 0;
+            this.btn2MD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2MD.Location = new System.Drawing.Point(305, 347);
             this.btn2MD.Name = "btn2MD";
             this.btn2MD.Size = new System.Drawing.Size(118, 10);
@@ -365,6 +417,8 @@ namespace _7SegmentFormat
             // 
             // btn2MG
             // 
+            this.btn2MG.FlatAppearance.BorderSize = 0;
+            this.btn2MG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2MG.Location = new System.Drawing.Point(305, 219);
             this.btn2MG.Name = "btn2MG";
             this.btn2MG.Size = new System.Drawing.Size(118, 9);
@@ -376,6 +430,8 @@ namespace _7SegmentFormat
             // 
             // btn2MA
             // 
+            this.btn2MA.FlatAppearance.BorderSize = 0;
+            this.btn2MA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2MA.Location = new System.Drawing.Point(305, 87);
             this.btn2MA.Name = "btn2MA";
             this.btn2MA.Size = new System.Drawing.Size(118, 10);
@@ -387,6 +443,8 @@ namespace _7SegmentFormat
             // 
             // btn1HC
             // 
+            this.btn1HC.FlatAppearance.BorderSize = 0;
+            this.btn1HC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1HC.Location = new System.Drawing.Point(272, 231);
             this.btn1HC.Name = "btn1HC";
             this.btn1HC.Size = new System.Drawing.Size(10, 110);
@@ -398,6 +456,8 @@ namespace _7SegmentFormat
             // 
             // btn1HE
             // 
+            this.btn1HE.FlatAppearance.BorderSize = 0;
+            this.btn1HE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1HE.Location = new System.Drawing.Point(164, 231);
             this.btn1HE.Name = "btn1HE";
             this.btn1HE.Size = new System.Drawing.Size(10, 110);
@@ -409,6 +469,8 @@ namespace _7SegmentFormat
             // 
             // btn1HB
             // 
+            this.btn1HB.FlatAppearance.BorderSize = 0;
+            this.btn1HB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1HB.Location = new System.Drawing.Point(272, 103);
             this.btn1HB.Name = "btn1HB";
             this.btn1HB.Size = new System.Drawing.Size(10, 110);
@@ -420,6 +482,8 @@ namespace _7SegmentFormat
             // 
             // btn1HF
             // 
+            this.btn1HF.FlatAppearance.BorderSize = 0;
+            this.btn1HF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1HF.Location = new System.Drawing.Point(164, 103);
             this.btn1HF.Name = "btn1HF";
             this.btn1HF.Size = new System.Drawing.Size(10, 110);
@@ -431,6 +495,8 @@ namespace _7SegmentFormat
             // 
             // btn1HD
             // 
+            this.btn1HD.FlatAppearance.BorderSize = 0;
+            this.btn1HD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1HD.Location = new System.Drawing.Point(164, 347);
             this.btn1HD.Name = "btn1HD";
             this.btn1HD.Size = new System.Drawing.Size(118, 10);
@@ -442,6 +508,8 @@ namespace _7SegmentFormat
             // 
             // btn1HG
             // 
+            this.btn1HG.FlatAppearance.BorderSize = 0;
+            this.btn1HG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1HG.Location = new System.Drawing.Point(164, 219);
             this.btn1HG.Name = "btn1HG";
             this.btn1HG.Size = new System.Drawing.Size(118, 9);
@@ -453,6 +521,8 @@ namespace _7SegmentFormat
             // 
             // btn1HA
             // 
+            this.btn1HA.FlatAppearance.BorderSize = 0;
+            this.btn1HA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn1HA.Location = new System.Drawing.Point(164, 87);
             this.btn1HA.Name = "btn1HA";
             this.btn1HA.Size = new System.Drawing.Size(118, 10);
@@ -464,6 +534,8 @@ namespace _7SegmentFormat
             // 
             // btn2HC
             // 
+            this.btn2HC.FlatAppearance.BorderSize = 0;
+            this.btn2HC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2HC.Location = new System.Drawing.Point(131, 231);
             this.btn2HC.Name = "btn2HC";
             this.btn2HC.Size = new System.Drawing.Size(10, 110);
@@ -475,6 +547,8 @@ namespace _7SegmentFormat
             // 
             // btn2HE
             // 
+            this.btn2HE.FlatAppearance.BorderSize = 0;
+            this.btn2HE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2HE.Location = new System.Drawing.Point(23, 231);
             this.btn2HE.Name = "btn2HE";
             this.btn2HE.Size = new System.Drawing.Size(10, 110);
@@ -486,6 +560,8 @@ namespace _7SegmentFormat
             // 
             // btn2HB
             // 
+            this.btn2HB.FlatAppearance.BorderSize = 0;
+            this.btn2HB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2HB.Location = new System.Drawing.Point(131, 103);
             this.btn2HB.Name = "btn2HB";
             this.btn2HB.Size = new System.Drawing.Size(10, 110);
@@ -497,6 +573,8 @@ namespace _7SegmentFormat
             // 
             // btn2HF
             // 
+            this.btn2HF.FlatAppearance.BorderSize = 0;
+            this.btn2HF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2HF.Location = new System.Drawing.Point(23, 103);
             this.btn2HF.Name = "btn2HF";
             this.btn2HF.Size = new System.Drawing.Size(10, 110);
@@ -508,6 +586,8 @@ namespace _7SegmentFormat
             // 
             // btn2HD
             // 
+            this.btn2HD.FlatAppearance.BorderSize = 0;
+            this.btn2HD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2HD.Location = new System.Drawing.Point(23, 347);
             this.btn2HD.Name = "btn2HD";
             this.btn2HD.Size = new System.Drawing.Size(118, 10);
@@ -519,6 +599,8 @@ namespace _7SegmentFormat
             // 
             // btn2HG
             // 
+            this.btn2HG.FlatAppearance.BorderSize = 0;
+            this.btn2HG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2HG.Location = new System.Drawing.Point(23, 219);
             this.btn2HG.Name = "btn2HG";
             this.btn2HG.Size = new System.Drawing.Size(118, 9);
@@ -530,6 +612,8 @@ namespace _7SegmentFormat
             // 
             // btn2HA
             // 
+            this.btn2HA.FlatAppearance.BorderSize = 0;
+            this.btn2HA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn2HA.Location = new System.Drawing.Point(23, 87);
             this.btn2HA.Name = "btn2HA";
             this.btn2HA.Size = new System.Drawing.Size(118, 10);

@@ -117,6 +117,66 @@ namespace _7SegmentFormat
                 btn1SE.PerformClick();
                 btn1SF.PerformClick();
             }
+
+            int tenthSecond = Convert.ToInt32(time.Substring(0,1));
+
+            if (tenthSecond == 1)
+            {
+                btn2SA.BackColor = System.Drawing.Color.Black;
+                btn2SF.BackColor = System.Drawing.Color.Black;
+                btn2SE.BackColor = System.Drawing.Color.Black;
+                btn2SD.BackColor = System.Drawing.Color.Black;
+                btn2SB.PerformClick();
+                btn2SC.PerformClick();
+            }
+            else if (tenthSecond == 2)
+            {
+                btn2SC.BackColor = System.Drawing.Color.Black;
+                btn2SA.PerformClick();
+                btn2SB.PerformClick();
+                btn2SG.PerformClick();
+                btn2SE.PerformClick();
+                btn2SD.PerformClick();
+            }
+            else if (tenthSecond == 3)
+            {
+                btn2SE.BackColor = System.Drawing.Color.Black;
+                btn2SA.PerformClick();
+                btn2SB.PerformClick();
+                btn2SG.PerformClick();
+                btn2SD.PerformClick();
+                btn2SC.PerformClick();
+            }
+            else if (tenthSecond == 4)
+            {
+                btn2SA.BackColor = System.Drawing.Color.Black;
+                btn2SD.BackColor = System.Drawing.Color.Black;
+                btn2SB.PerformClick();
+                btn2SG.PerformClick();
+                btn2SC.PerformClick();
+                btn2SF.PerformClick();
+            }
+            else if (tenthSecond == 5)
+            {
+                btn2SB.BackColor = System.Drawing.Color.Black;
+                btn2SA.PerformClick();
+                btn2SG.PerformClick();
+                btn2SC.PerformClick();
+                btn2SF.PerformClick();
+                btn2SD.PerformClick();
+            }
+            else
+            {
+                btn2SG.BackColor = System.Drawing.Color.Black;
+                btn2SA.PerformClick();
+                btn2SB.PerformClick();
+                btn2SC.PerformClick();
+                btn2SD.PerformClick();
+                btn2SE.PerformClick();
+                btn2SF.PerformClick();
+            }
+
+
         }
 
         private void all(object sender, EventArgs e)

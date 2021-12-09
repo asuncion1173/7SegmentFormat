@@ -21,8 +21,10 @@ namespace _7SegmentFormat
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            var time = DateTime.Now.ToString("ss");
-            int onceSecond = Convert.ToInt32(time.Substring(time.Length - 1));
+            var timeSecond = DateTime.Now.ToString("ss");
+            int onceSecond = Convert.ToInt32(timeSecond.Substring(timeSecond.Length - 1));
+
+            // For once place (Seconds)
             if (onceSecond == 1)
             {
                 btn1SA.BackColor = System.Drawing.Color.Black;
@@ -118,7 +120,8 @@ namespace _7SegmentFormat
                 btn1SF.PerformClick();
             }
 
-            int tenthSecond = Convert.ToInt32(time.Substring(0,1));
+            // For tenths place (Seconds)
+            int tenthSecond = Convert.ToInt32(timeSecond.Substring(0,1));
 
             if (tenthSecond == 1)
             {
@@ -176,6 +179,104 @@ namespace _7SegmentFormat
                 btn2SF.PerformClick();
             }
 
+            // For once place (Minute)
+            var timeMinute = DateTime.Now.ToString("mm");
+            int onceMinute = Convert.ToInt32(timeMinute.Substring(timeMinute.Length - 1));
+
+            if (onceMinute == 1)
+            {
+                btn1MA.BackColor = System.Drawing.Color.Black;
+                btn1MF.BackColor = System.Drawing.Color.Black;
+                btn1ME.BackColor = System.Drawing.Color.Black;
+                btn1MD.BackColor = System.Drawing.Color.Black;
+                btn1MB.PerformClick();
+                btn1MC.PerformClick();
+            }
+            else if (onceMinute == 2)
+            {
+                btn1MC.BackColor = System.Drawing.Color.Black;
+                btn1MA.PerformClick();
+                btn1MB.PerformClick();
+                btn1MG.PerformClick();
+                btn1ME.PerformClick();
+                btn1MD.PerformClick();
+            }
+            else if (onceMinute == 3)
+            {
+                btn1ME.BackColor = System.Drawing.Color.Black;
+                btn1MA.PerformClick();
+                btn1MB.PerformClick();
+                btn1MG.PerformClick();
+                btn1MD.PerformClick();
+                btn1MC.PerformClick();
+            }
+            else if (onceMinute == 4)
+            {
+                btn1MA.BackColor = System.Drawing.Color.Black;
+                btn1MD.BackColor = System.Drawing.Color.Black;
+                btn1MB.PerformClick();
+                btn1MG.PerformClick();
+                btn1MC.PerformClick();
+                btn1MF.PerformClick();
+            }
+            else if (onceMinute == 5)
+            {
+                btn1MB.BackColor = System.Drawing.Color.Black;
+                btn1MA.PerformClick();
+                btn1MG.PerformClick();
+                btn1MC.PerformClick();
+                btn1MF.PerformClick();
+                btn1MD.PerformClick();
+            }
+            else if (onceMinute == 6)
+            {
+                btn1MA.PerformClick();
+                btn1MG.PerformClick();
+                btn1MC.PerformClick();
+                btn1MF.PerformClick();
+                btn1MD.PerformClick();
+                btn1ME.PerformClick();
+            }
+            else if (onceMinute == 7)
+            {
+                btn1MD.BackColor = System.Drawing.Color.Black;
+                btn1ME.BackColor = System.Drawing.Color.Black;
+                btn1MG.BackColor = System.Drawing.Color.Black;
+                btn1MF.BackColor = System.Drawing.Color.Black;
+                btn1MA.PerformClick();
+                btn1MB.PerformClick();
+                btn1MC.PerformClick();
+            }
+            else if (onceMinute == 8)
+            {
+                btn1MA.PerformClick();
+                btn1MB.PerformClick();
+                btn1MC.PerformClick();
+                btn1MD.PerformClick();
+                btn1ME.PerformClick();
+                btn1MF.PerformClick();
+                btn1MG.PerformClick();
+            }
+            else if (onceMinute == 9)
+            {
+                btn1ME.BackColor = System.Drawing.Color.Black;
+                btn1MA.PerformClick();
+                btn1MB.PerformClick();
+                btn1MC.PerformClick();
+                btn1MD.PerformClick();
+                btn1MF.PerformClick();
+                btn1MG.PerformClick();
+            }
+            else
+            {
+                btn1MG.BackColor = System.Drawing.Color.Black;
+                btn1MA.PerformClick();
+                btn1MB.PerformClick();
+                btn1MC.PerformClick();
+                btn1MD.PerformClick();
+                btn1ME.PerformClick();
+                btn1MF.PerformClick();
+            }
 
         }
 

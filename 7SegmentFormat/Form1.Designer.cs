@@ -643,7 +643,7 @@ namespace _7SegmentFormat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(857, 480);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn2HC);

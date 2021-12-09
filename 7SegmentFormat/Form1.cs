@@ -25,16 +25,16 @@ namespace _7SegmentFormat
             int onceSecond = Convert.ToInt32(time.Substring(time.Length - 1));
             if (onceSecond == 1)
             {
-                btn1SA.BackColor = System.Drawing.Color.Gainsboro;
-                btn1SF.BackColor = System.Drawing.Color.Gainsboro;
-                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
-                btn1SD.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SA.BackColor = System.Drawing.Color.Black;
+                btn1SF.BackColor = System.Drawing.Color.Black;
+                btn1SE.BackColor = System.Drawing.Color.Black;
+                btn1SD.BackColor = System.Drawing.Color.Black;
                 btn1SB.PerformClick();
                 btn1SC.PerformClick();
             }
             else if (onceSecond == 2)
             {
-                btn1SC.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SC.BackColor = System.Drawing.Color.Black;
                 btn1SA.PerformClick();
                 btn1SB.PerformClick();
                 btn1SG.PerformClick();
@@ -43,7 +43,7 @@ namespace _7SegmentFormat
             }
             else if (onceSecond == 3)
             {
-                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SE.BackColor = System.Drawing.Color.Black;
                 btn1SA.PerformClick();
                 btn1SB.PerformClick();
                 btn1SG.PerformClick();
@@ -52,8 +52,8 @@ namespace _7SegmentFormat
             }
             else if (onceSecond == 4)
             {
-                btn1SA.BackColor = System.Drawing.Color.Gainsboro;
-                btn1SD.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SA.BackColor = System.Drawing.Color.Black;
+                btn1SD.BackColor = System.Drawing.Color.Black;
                 btn1SB.PerformClick();
                 btn1SG.PerformClick();
                 btn1SC.PerformClick();
@@ -61,7 +61,7 @@ namespace _7SegmentFormat
             }
             else if (onceSecond == 5)
             {
-                btn1SB.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SB.BackColor = System.Drawing.Color.Black;
                 btn1SA.PerformClick();
                 btn1SG.PerformClick();
                 btn1SC.PerformClick();
@@ -79,10 +79,10 @@ namespace _7SegmentFormat
             }
             else if (onceSecond == 7)
             {
-                btn1SD.BackColor = System.Drawing.Color.Gainsboro;
-                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
-                btn1SG.BackColor = System.Drawing.Color.Gainsboro;
-                btn1SF.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SD.BackColor = System.Drawing.Color.Black;
+                btn1SE.BackColor = System.Drawing.Color.Black;
+                btn1SG.BackColor = System.Drawing.Color.Black;
+                btn1SF.BackColor = System.Drawing.Color.Black;
                 btn1SA.PerformClick();
                 btn1SB.PerformClick();
                 btn1SC.PerformClick();
@@ -99,7 +99,7 @@ namespace _7SegmentFormat
             }
             else if (onceSecond == 9)
             {
-                btn1SE.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SE.BackColor = System.Drawing.Color.Black;
                 btn1SA.PerformClick();
                 btn1SB.PerformClick();
                 btn1SC.PerformClick();
@@ -109,7 +109,7 @@ namespace _7SegmentFormat
             }
             else
             {
-                btn1SG.BackColor = System.Drawing.Color.Gainsboro;
+                btn1SG.BackColor = System.Drawing.Color.Black;
                 btn1SA.PerformClick();
                 btn1SB.PerformClick();
                 btn1SC.PerformClick();
@@ -122,7 +122,7 @@ namespace _7SegmentFormat
         private void all(object sender, EventArgs e)
         {
             Button btnAll = (Button)sender;
-            btnAll.BackColor = System.Drawing.Color.Black;
+            btnAll.BackColor = System.Drawing.Color.Red;
         }
     }
 }
